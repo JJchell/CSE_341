@@ -5,7 +5,7 @@
             
             <nav>
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="assignments.html">CSE 341 Assignments</a></li>
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="assignments.php">CSE 341 Assignments</a></li>
                 </ul>
             </nav>
