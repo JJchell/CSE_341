@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+   <html lang="en-us">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Home page | James Chell | CS 313 BYUI</title>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body>
+<header>
+   <?php include $_SERVER['DOCUMENT_ROOT'] . 'common/header.php'; ?>
+            <!-- <div class="top-container">
+               <img id="logo" src="images/logo.jpg" alt="my logo" width="150" height="150">
+               
+            </div> -->
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="assignments.html">CSE 341 Assignments</a></li>
+                </ul>
+            </nav>
+            <h3>content coming soon</h3>
+      </header> 
+      
+      <footer>
+         <?php include $_SERVER['DOCUMENT_ROOT'] . 'common/footer.php'; ?> 
+            <!-- <p>&copy; James Chell, All rights reserved.</p>
+            <p>Last updated 27 September, 2018</p> -->
+         </footer>
+   </body>
+</html>
