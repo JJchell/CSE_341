@@ -15,12 +15,6 @@
             <!-- <div class="top-container">
                <img id="logo" src="images/logo.jpg" alt="my logo" width="150" height="150">
             </div> -->
-            <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="assignments.html">CSE 341 Assignments</a></li>
-                </ul>
-            </nav>
       </header> 
       <main>
          <div class="info">
@@ -33,7 +27,7 @@
          </div>
       </main>
       <footer>
-         <?php include $_SERVER['DOCUMENT_ROOT'] . 'common/footer.php'; ?>
+         <?php include 'common/footer.php'; ?>
             <!-- <p>&copy; James Chell, All rights reserved.</p>
             <?php echo "The time is " . date("h:i:sa");?>
             <p>Last updated 27 April, 2020</p> -->

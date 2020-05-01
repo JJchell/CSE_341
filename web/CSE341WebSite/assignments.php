@@ -14,22 +14,17 @@ and open the template in the editor.
    </head>
    <body>
 <header>
-   <?php include $_SERVER['DOCUMENT_ROOT'] . 'common/header.php'; ?>
+   <?php include 'common/header.php'; ?>
             <!-- <div class="top-container">
                <img id="logo" src="images/logo.jpg" alt="my logo" width="150" height="150">
                
             </div> -->
-            <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="assignments.html">CSE 341 Assignments</a></li>
-                </ul>
-            </nav>
+            
             <h3>content coming soon</h3>
       </header> 
       
       <footer>
-         <?php include $_SERVER['DOCUMENT_ROOT'] . 'common/footer.php'; ?> 
+         <?php include 'common/footer.php'; ?> 
             <!-- <p>&copy; James Chell, All rights reserved.</p>
             <p>Last updated 27 September, 2018</p> -->
          </footer>
