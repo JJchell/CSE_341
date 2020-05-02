@@ -82,3 +82,26 @@ footer {
 	background-color: #933233;
 	color: white;
 }
+
+.links {
+	background-color: #933233;
+	clear: both;
+}
+
+.links li {
+	font-size: 1em;
+	padding: 0px 5px;
+	display: inline-block;
+	list-style-type: none;
+}
+.links a {
+	padding: .5em .2em;
+	line-height: 2em;
+	text-decoration: none;
+	color: white;
+}
+
+.links a:hover {
+	background-color: #fff;
+	color: #933233;
+}
