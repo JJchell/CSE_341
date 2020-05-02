@@ -12,9 +12,6 @@
 <header>
    <?php include 'common/header.php'; ?>
 
-            <!-- <div class="top-container">
-               <img id="logo" src="images/logo.jpg" alt="my logo" width="150" height="150">
-            </div> -->
       </header> 
       <main>
          <div class="info">
