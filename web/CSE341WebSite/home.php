@@ -25,7 +25,6 @@
       </main>
       <footer>
          <?php include 'common/footer.php'; ?>
-            <?php echo "The time is " . date("h:i:sa");?>
          </footer>
    </body>
 </html>
