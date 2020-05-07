@@ -7,8 +7,13 @@ header {
 	background-color: #933233;
 }
 
+#logo {
+	border-radius: 25px;
+}
+
 body {
-	background-image: url("images/background.jpg");
+	/* background-image: url("images/background.jpg"); */
+	background-color: lightgray;
 }
 
 h3 {
@@ -66,7 +71,7 @@ main {
 }
 
 fieldset {
-	border-radius: 25px;
+	border-radius: 15px;
 	background: #933233;
 	color: white;
 }
@@ -104,4 +109,18 @@ footer {
 .links a:hover {
 	background-color: #fff;
 	color: #933233;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+#cookieV {
+	padding: 25px;
+}
+
+#cookieH {
+	padding: 10px;
 }

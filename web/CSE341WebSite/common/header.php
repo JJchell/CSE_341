@@ -7,5 +7,6 @@
                 <ul>
                     <li><a href="home.php">Home</a></li>
                     <li><a href="assignments.php">CSE 341 Assignments</a></li>
+                    <li><a href="browse.php">Cookies</a></li>
                 </ul>
             </nav>
