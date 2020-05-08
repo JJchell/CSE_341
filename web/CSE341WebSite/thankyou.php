@@ -18,10 +18,8 @@
    <h3>Thank you for your order. A member of our troop will see you soon! </h3>
       </header> 
 
-        <footer>
-            <!--Footer Text-->
-            <p>&copy; James Chell, All rights reserved.</p>
-            <p>Last updated 27 September, 2019</p>
+      <footer>
+            <?php include 'common/footer.php'; ?>   
         </footer>
     </body>
 </html>

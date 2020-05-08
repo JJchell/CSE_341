@@ -9,4 +9,4 @@
 
 <p>&copy; James Chell, All rights reserved.</p>
             <?php echo "The universal time is " . date("h:i:sa");?>
-            <p>Last updated 1 March, 2020</p>
+            <p>Last updated 8 May, 2020</p>
