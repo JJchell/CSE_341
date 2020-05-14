@@ -17,7 +17,7 @@ CREATE TABLE scout (
 
 CREATE TABLE cookies (	
 	cookie_id SERIAL PRIMARY KEY,
-	cookie_name VARCHAR(30) NOT NULL,dr
+	cookie_name VARCHAR(30) NOT NULL,
     cookies_on_hand INT 
 ); 
 
