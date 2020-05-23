@@ -13,14 +13,17 @@
    <?php include 'common/header.php'; ?>
 </header> 
     <main>
+        <fieldset>
         <div class="info">
             <form action="results.php" method="post">
                 Name: <input type="text" name="name"><br>
                 E-mail: <input type="text" name="email"><br>
                 Cookie: <input type="text" name="cookie"><br>
-                <input type="submit">
+                <input type="submit" value="results" class="getBtn">
+                <input type="hidden" name="action" value="register"><br>
             </form>
         </div>
+        </fieldset>
     </main>
         <footer>
 
