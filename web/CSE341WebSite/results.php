@@ -24,6 +24,7 @@ if (isset($_POST['first_name'])) {
     $name = validateInput($_POST['first_name']);
     $rows = searchQuery($name, $db);
     print_r($rows);
+    
 }
 
 if (isset($_POST['last_name'])) {
@@ -56,7 +57,11 @@ if (isset($_POST['cookie'])) {
     <main>
         <fieldset>
         <?php foreach ($rows as $row){
-            echo $row['first_name'];
+            echo $row['first_name'] .
+            " " . $row['last_name'] .
+            " " . $row['date_of_birth'] .
+            " " . $row['email'] .
+            " " . $row['phone'];
         }?>
             <p>Your results: </p>
             <p>Scout name: <?= $name ?></p>
