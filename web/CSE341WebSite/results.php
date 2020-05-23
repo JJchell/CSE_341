@@ -61,7 +61,7 @@ if (isset($_POST['cookie'])) {
             <p>Scout name: <?= $name ?></p>
             <p>Last name: <?= $last_name ?></p>
             <p>Cookie: <?= $cookie ?></p>
-        </fieldset>
+        </fieldset> <br>
         <fieldset>
         <?php foreach ($rows as $row){
             echo "<p>" . "First name: " . $row['first_name'] . "</p>" .
