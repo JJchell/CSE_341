@@ -21,8 +21,8 @@ $db=get_db();
         <fieldset>
         <div class="info">
             <form action="results.php" method="post">
-                Name: <input type="text" name="name"><br>
-                E-mail: <input type="text" name="email"><br>
+                Name: <input type="text" name="first_name"><br>
+                Last name: <input type="text" name="last_name"><br>
                 Cookie: <input type="text" name="cookie"><br>
                 <input type="submit" value="results" class="getBtn">
                 <input type="hidden" name="action" value=""><br>
