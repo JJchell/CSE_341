@@ -23,7 +23,13 @@ $db=get_db();
             <form action="results.php" method="post">
                 First name: <input type="text" name="first_name"><br>
                 Last name: <input type="text" name="last_name"><br>
-                Cookie: <input type="text" name="cookie"><br>
+                <label for="cookie">Choose a Cookie:</label>
+                <select id="cookie" name="cookie">
+                    <option value="">Caramel deLites</option>
+                    <option value="saab">Peanut Butter Sandwich</option>
+                    <option value="fiat">Peanut Butter Patties</option>
+                    <option value="audi">Thin Mints</option>
+                </select>
                 <input type="submit" value="results" class="getBtn">
                 <input type="hidden" name="action" value=""><br>
             </form>
