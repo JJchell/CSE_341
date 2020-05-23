@@ -22,7 +22,7 @@ function searchQuery($name, $db)
 function searchQueryCookie($cookie, $db)
 {
     // $db=dbConnection();
-    $stmt = $db->prepare('SELECT * FROM cookies WHERE cookie_name = :cookie);
+    $stmt = $db->prepare('SELECT * FROM cookies WHERE cookie_name = :cookie');
     //$name= '$name';
     $stmt->bindValue(':cookie', $cookie, PDO::PARAM_STR);
     $stmt->execute();
