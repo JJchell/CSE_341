@@ -70,7 +70,14 @@ if (isset($_POST['cookie'])) {
             "<p>" . "Email: " . $row['email'] . "</p>".
             "Phone number: " . $row['phone'];
         }?>
-        </fieldset><br>
+        </fieldset>
+
+        <fieldset>
+        <?php foreach ($rows as $row){
+            echo "<p>" . "First name: " . $row['cookie_name'] . "</p>" .
+            "Cookies on hand: " . $row['cookies_on_hand'];
+        }?>
+        </fieldset>
         
         </div>
     </main>

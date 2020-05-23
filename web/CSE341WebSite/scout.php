@@ -25,10 +25,14 @@ $db=get_db();
                 Last name: <input type="text" name="last_name"><br>
                 <label for="cookie">Choose a Cookie:</label>
                 <select id="cookie" name="cookie">
-                    <option value="">Caramel deLites</option>
-                    <option value="saab">Peanut Butter Sandwich</option>
-                    <option value="fiat">Peanut Butter Patties</option>
-                    <option value="audi">Thin Mints</option>
+                    <option value="Caramel deLites">Caramel deLites</option>
+                    <option value="Peanut Butter Sandwich">Peanut Butter Sandwich</option>
+                    <option value="Peanut Butter Patties">Peanut Butter Patties</option>
+                    <option value="Thin Mints">Thin Mints</option>
+                    <option value="Shortbread">Shortbread</option>
+                    <option value="Thanks-a-lot">Thanks-a-lot</option>
+                    <option value="Lemonades">Lemonades</option>
+                    <option value="Smores">Smores</option>
                 </select>
                 <input type="submit" value="results" class="getBtn">
                 <input type="hidden" name="action" value=""><br>
