@@ -14,7 +14,7 @@
 </header> 
     <main>
         <div class="info">
-            <form action="info.php" method="post">
+            <form action="results.php" method="post">
                 Name: <input type="text" name="name"><br>
                 E-mail: <input type="text" name="email"><br>
                 Cookie: <input type="text" name="cookie"><br>
