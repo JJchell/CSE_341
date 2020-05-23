@@ -55,6 +55,13 @@ if (isset($_POST['cookie'])) {
         <?php include 'common/header.php'; ?>
     </header>
     <main>
+
+        <fieldset>
+            <p>Your results: </p>
+            <p>Scout name: <?= $name ?></p>
+            <p>Last name: <?= $last_name ?></p>
+            <p>Cookie: <?= $cookie ?></p>
+        </fieldset>
         <fieldset>
         <?php foreach ($rows as $row){
             echo $row['first_name'] .
@@ -64,12 +71,7 @@ if (isset($_POST['cookie'])) {
             " " . $row['phone'];
         }?>
         </fieldset><br>
-        <fieldset>
-            <p>Your results: </p>
-            <p>Scout name: <?= $name ?></p>
-            <p>Last name: <?= $last_name ?></p>
-            <p>Cookie: <?= $cookie ?></p>
-        </fieldset>
+        
         </div>
     </main>
     <footer>
