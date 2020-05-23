@@ -63,6 +63,8 @@ if (isset($_POST['cookie'])) {
             " " . $row['email'] .
             " " . $row['phone'];
         }?>
+        </fieldset>
+        <fieldset>
             <p>Your results: </p>
             <p>Scout name: <?= $name ?></p>
             <p>Last name: <?= $last_name ?></p>
