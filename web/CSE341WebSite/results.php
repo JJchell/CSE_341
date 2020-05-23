@@ -64,11 +64,11 @@ if (isset($_POST['cookie'])) {
         </fieldset>
         <fieldset>
         <?php foreach ($rows as $row){
-            echo $row['first_name'] .
-            " " . $row['last_name'] .
-            " " . $row['date_of_birth'] .
-            " " . $row['email'] .
-            " " . $row['phone'];
+            <P>echo $row['first_name'] .</P>
+            <P>" " . $row['last_name'] .</P>
+            <P>" " . $row['date_of_birth'] .</P>
+            <P>" " . $row['email'] .</P>
+            <P>" " . $row['phone'];</P>
         }?>
         </fieldset><br>
         
