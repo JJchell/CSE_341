@@ -73,8 +73,8 @@ if (isset($_POST['cookie'])) {
         </fieldset>
 
         <fieldset>
-        <?php foreach ($rows as $row){
-            echo "<p>" . "First name: " . $row['cookie_name'] . "</p>" .
+        <?php foreach ($cookies as $row){
+            echo "<p>" . "Cookie name: " . $row['cookie_name'] . "</p>" .
             "Cookies on hand: " . $row['cookies_on_hand'];
         }?>
         </fieldset>
