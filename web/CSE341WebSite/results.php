@@ -64,7 +64,8 @@ if (isset($_POST['cookie'])) {
         </fieldset>
         <fieldset>
         <?php foreach ($rows as $row){
-            echo $row['first_name'] .
+            echo.
+            "First name: " . $row['first_name'] .
             "Last name: " . $row['last_name'] .
             "Date of birth: " . $row['date_of_birth'] .
             "Email: " . $row['email'] .
