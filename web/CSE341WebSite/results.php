@@ -14,7 +14,14 @@
 </header> 
     <main>
     
-        <div class="results">
+        <fieldset>
+        
+        <p>Your results: </p>
+                <p>Scout name: <?=$name ?></p>
+                <p>E-mail: <?=$email ?></p>
+                <p>Cookie: <?=$cookie ?></p>
+        
+        </fieldset>
             
 
         </div>
