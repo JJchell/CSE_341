@@ -23,7 +23,7 @@ if (isset($_POST['first_name'])) {
     
     $name = validateInput($_POST['first_name']);
     $rows = searchQuery($name, $db);
-    print_r($rows);
+    // print_r($rows);
     
 }
 
@@ -63,7 +63,7 @@ if (isset($_POST['cookie'])) {
             " " . $row['email'] .
             " " . $row['phone'];
         }?>
-        </fieldset>
+        </fieldset><br>
         <fieldset>
             <p>Your results: </p>
             <p>Scout name: <?= $name ?></p>
