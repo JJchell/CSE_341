@@ -71,6 +71,7 @@ main {
 }
 
 fieldset {
+	display: inline-block;
 	border-radius: 15px;
 	background: #933233;
 	color: white;
