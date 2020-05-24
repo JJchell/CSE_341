@@ -54,13 +54,7 @@ main {
 	justify-content: space-between;
 }
 
-/* #family {
-	max-width: 100%;
-	height: auto;
-	border-radius: 8px;
-} */
-
-img {
+#family {
 	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
