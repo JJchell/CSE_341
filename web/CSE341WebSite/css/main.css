@@ -54,16 +54,16 @@ main {
 	justify-content: space-between;
 }
 
-.homePage {
-	padding: 20px;
-	display: flex;
-	justify-content: space-between;
-}
-
 #family {
 	max-width: 100%;
 	height: auto;
 	border-radius: 8px;
+}
+
+.homePage {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .info {
