@@ -14,14 +14,16 @@
 
       </header> 
       <main>
-         <div class="info">
-            <img id="family" src="images/theChells.jpg" alt="me and the fam" >
-         </div>
-          <div class="info">
-           
-              My name is James. I live in Keller, Texas with my wife and four children. Keller is in the Dallas/Fort Worth metroplex, which is nice because you get pretty much anything you need.  The down side is that it can feel a bit crowded sometimes.  I grew up in rural Arizona, so I miss the open spaces now and then.  I enjoy riding my motorcycle, cooking, and online gaming, none of which I have much time for this days. 
-               
-         </div>
+         <fieldset>
+            <div class="info">
+               <img id="family" src="images/theChells.jpg" alt="me and the fam" >
+            </div>
+            <div class="info">
+            
+               My name is James. I live in Keller, Texas with my wife and four children. Keller is in the Dallas/Fort Worth metroplex, which is nice because you get pretty much anything you need.  The down side is that it can feel a bit crowded sometimes.  I grew up in rural Arizona, so I miss the open spaces now and then.  I enjoy riding my motorcycle, cooking, and online gaming, none of which I have much time for this days. 
+                  
+            </div>
+         </fieldset>
       </main>
       <footer>
          <?php include 'common/footer.php'; ?>
