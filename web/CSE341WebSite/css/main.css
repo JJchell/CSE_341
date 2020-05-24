@@ -55,7 +55,8 @@ main {
 }
 
 #family {
-	max-width: 100%;
+	width: auto;
+	max-width: 150px;
 	height: auto;
 	border-radius: 8px;
 }
