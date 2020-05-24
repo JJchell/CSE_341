@@ -67,6 +67,7 @@ main {
 	color: white;
 	width: 48%;
 	padding: 20px;
+	display: flex;
 	justify-content: space-between;
 }
 
