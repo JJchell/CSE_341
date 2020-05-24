@@ -58,6 +58,7 @@ main {
 	width: auto;
 	max-width: 100%;
 	height: auto;
+	max-height: auto;
 	border-radius: 8px;
 }
 
