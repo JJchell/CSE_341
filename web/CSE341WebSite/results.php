@@ -57,7 +57,7 @@ if (isset($_POST['cookie'])) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Scout page | James Chell | CSE 341 BYUI</title>
+    <title>Result page | James Chell | CSE 341 BYUI</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>

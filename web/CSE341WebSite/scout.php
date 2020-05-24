@@ -3,6 +3,7 @@ require "common/dbconnect.php";
 $db=get_db();
 ?>
 
+
 <!DOCTYPE html>
 
    <html lang="en-us">
@@ -25,6 +26,7 @@ $db=get_db();
                 Last name: <input type="text" name="last_name"><br>
                 <label for="cookie">Choose a Cookie:</label>
                 <select id="cookie" name="cookie">
+                    <option value="none">-</option>
                     <option value="Caramel deLites">Caramel deLites</option>
                     <option value="Peanut Butter Sandwich">Peanut Butter Sandwich</option>
                     <option value="Peanut Butter Patties">Peanut Butter Patties</option>
