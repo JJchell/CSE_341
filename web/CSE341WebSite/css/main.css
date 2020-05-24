@@ -54,6 +54,12 @@ main {
 	justify-content: space-between;
 }
 
+.homePage {
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
 #family {
 	max-width: 100%;
 	height: auto;
