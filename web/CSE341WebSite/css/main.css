@@ -54,13 +54,16 @@ main {
 	justify-content: space-between;
 }
 
-#family {
-	width: 100%;
-	/* width: auto;
+/* #family {
 	max-width: 100%;
 	height: auto;
-	max-height: auto;
-	border-radius: 8px; */
+	border-radius: 8px;
+} */
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
 }
 
 .homePage {
