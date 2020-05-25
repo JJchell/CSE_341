@@ -14,7 +14,7 @@
 
       </header> 
       <main>
-         <!-- <fieldset> -->
+         <fieldset>
             <div class="homePage">
             <div class="info">
                <img id="family" src="images/theChells.jpg" alt="me and the fam" >
@@ -25,7 +25,7 @@
                   
             </div>
             </div>
-         <!-- </fieldset> -->
+         </fieldset>
       </main>
       <footer>
          <?php include 'common/footer.php'; ?>
