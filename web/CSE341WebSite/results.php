@@ -68,7 +68,7 @@ if (isset($_POST['cookie'])) {
     <main>
 
         <fieldset>
-            <p>Your results: </p>
+            <p>Your results for: </p>
             <p>Scout name: <?= $name ?></p>
             <p>Last name: <?= $last_name ?></p>
             <p>Cookie: <?= $cookie ?></p>
