@@ -1,3 +1,12 @@
+<?php
+    session_start();
+    if (!iset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false) {
+        header ("Location: scout.php");
+    }
+
+
+?>
+
 <!DOCTYPE html>
 
    <html lang="en-us">
