@@ -16,7 +16,7 @@ $db=get_db();
         if ($_POST['username'] == $username && $_POST['password'] == $password) {
 
             $_SESSION['logged_in'] = true;
-            header ("Location: admin.php")
+            header ("Location: admin.php");
         }
     }
 

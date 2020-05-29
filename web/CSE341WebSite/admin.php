@@ -27,7 +27,7 @@
             <form method="post" action="">
 
                 <fieldset>
-                    <legend><span>Order your Cookies</span></legend>
+                    <legend><span>Add New Scout</span></legend>
 
                     <div class="row">
 
