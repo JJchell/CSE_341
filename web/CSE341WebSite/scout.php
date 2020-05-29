@@ -40,7 +40,7 @@ $db=get_db();
 
     <fieldset>
         <legend><span>Add Scout Information</span></legend>
-            <form meathod="post" action="scout.php">
+            <form method="post" action="scout.php">
             Username:<br>
             <input type="text" name="username"><br>
             Password:<br>
