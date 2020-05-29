@@ -2,7 +2,25 @@
 require "common/dbconnect.php";
 $db=get_db();
 ?>
+<?php
+    session_start();
 
+    $username = "testAdmin";
+    $password = "cs313";
+
+    if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] == true) {
+        header("Location: admin.php");
+    }
+        
+    if (isset($_POST['username']) && isset($_POST['password'])) {
+        if ($_POST['username'] == $username && $_POST['password'] == $password) {
+
+            $_SESSION['logged_in'] = true;
+            header ("Location: admin.php")
+        }
+    }
+
+?>
 
 <!DOCTYPE html>
 
@@ -21,48 +39,19 @@ $db=get_db();
     <main>
 
     <fieldset>
-                    <legend><span>Add Scout Information</span></legend>
+        <legend><span>Add Scout Information</span></legend>
+            <form meathod="post" action="scout.php">
+            Username:<br>
+            <input type="text" name="username"><br>
+            Password:<br>
+            <input type="password" name="password"><br>
+            <input type="submit" value="Login">
+            </form>
 
-                    <div class="row">
-
-                        <div class="column">
-
-                            <label><span>First Name: </span><br>
-                                <input name="add_first_name" type="text" value="" id="add_first_name" placeholder="">
-                            </label><br><br>
-
-                            <label><span>Last Name: </span><br>
-                                <input name="add_last_name" type="text" value="" id="add_last_name" placeholder="">
-                            </label><br><br>
-
-                            <label><span>Date of Birth: </span><br>
-                                <input name="add_date_of-birth" type="text" value="" id="add_date_of-birth" placeholder="" required>
-                            </label><br><br>
-
-                            <label><span>Email: </span><br>
-                                <input name="add_email" type="text" value="" id="add_email" placeholder="" required>
-                            </label><br><br>
-
-                        </div>
-
-                            <label><span>Phone Number: </span><br>
-                                <input name="add_phone" type="number" value="" id="add_phone" placeholder=""required>
-                            </label><br><br>
-
-                            <label><span>User Name: </span><br>
-                                <input name="add_user_name" type="text" value="" id="add_user_name" placeholder="">
-                            </label><br><br>
-
-                            <label><span>Password: </span><br>
-                                <input name="add_password" type="number" value="" id="add_password" placeholder="">
-                            </label><br><br>
-
-                                </label>
-
-                                </div>
+                   
 
 
-                </fieldset>
+    </fieldset>
         <fieldset>
         <div class="info">
             <form action="results.php" method="post">
