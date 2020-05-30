@@ -32,7 +32,7 @@
                     <legend><span>Add New Scout</span></legend>
 
                     <!-- <div><h2>Hello <?php echo $_SESSION['username']; ?></h2></div> -->
-                    <div><a href="logout.php" id="logoutBtn">Logout</a></div><br>
+                    
 
                     <div class="row">
 
@@ -53,6 +53,8 @@
                             <label><span>Phone Number: </span><br>
                                 <input name="add_phone" type="text" value="" id="add_phone" placeholder="">
                             </label><br><br>
+
+                            <div><a href="logout.php" id="logoutBtn">Logout</a></div><br>
 
                         </div>
                         <div>
