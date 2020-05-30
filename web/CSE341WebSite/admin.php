@@ -1,13 +1,79 @@
 <?php
+    require "common/dbconnect.php";
+    $db=get_db();
+?>
+
+
+<?php
     session_start();
     // if (!isset($_SESSION['loggedin'])|| $_SESSION['loggedin'] == false) {
     //     header ("Location: scout.php");
     // }
+    ?>
 
+<?php
+​
+// function validateInput($data) {
+//     $data = trim($data);
+//     $data = stripslashes($data);
+//     $data = htmlspecialchars($data);
+//     return $data;
+// }
+​
+​
+$add_first_name = $_POST['add_first_name'];
+$add_last_name = $_POST['add_last_name'];
+$add_date_of_birth = $_POST['add_date_of_birth'];
+$add_phone = $_POST['add_phone'];
+$add_email = $_POST['add_email'];
+$add_user_name = $_POST['add_user_name'];
+$add_password = $_POST['add_password'];
+​
+$db = get_db();
+
+​
+try
+{
+
+$query = "INSERT INTO scout(first_name, last_name, date_of_birth, phone, email, user_name, password) 
+VALUES('$add_first_name', '$add_last_name', '$add_date_of_birth', '$add_phone', '$add_email', '$add_user_name', '$add_password')";
+$statement = $db->prepare($query);
+​
+// Now we bind the values to the placeholders. This does some nice things
+// including sanitizing the input with regard to sql commands.
+$statement->bindValue(':first_name', $add_first_name);
+$statement->bindValue(':last_name', $add_last_name);
+$statement->bindValue(':date_of_birth', $add_date_of_birth);
+$statement->bindValue(':phone', $add_phone);
+$statement->bindValue(':email', $add_email);
+$statement->bindValue(':user_name', $add_user_name);
+$statement->bindValue(':password', $add_password);
+​
+$statement->execute();
+​
+// get the new id
+$scout_id = $db->lastInsertId("scout_id_seq");
+​
+
+}
+catch (Exception $ex)
+{
+
+echo "Error with DB. Details: $ex";
+die();
+}
+​
+// finally, redirect them to a new page to actually show the topics
+header("Location: show-topics.php");
+​
+die(); // we always include a die after redirects. In this case, there would be no
+   // harm if the user got the rest of the page, because there is nothing else
+   // but in general, there could be things after here that we don't want them
+   // to see.
+​
 
 
 ?>
-
 
 <!DOCTYPE HTML>
 
@@ -47,7 +113,7 @@
                             </label><br><br>
 
                             <label><span>Date of Birth: </span><br>
-                                <input name="add_address" type="text" value="" id="add_address" placeholder="YYYY/MM/DD">
+                                <input name="add_date_of_birth" type="text" value="" id="add_date_of_birth" placeholder="YYYY-MM-DD">
                             </label><br><br>
 
                             <label><span>Phone Number: </span><br>
