@@ -22,7 +22,7 @@ $db=get_db();
 
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 
    <html lang="en-us">
    <head>
@@ -39,7 +39,7 @@ $db=get_db();
     <main>
 
     <fieldset>
-        <legend><span>Add New Scout Information</span></legend>
+        <legend><span>Add New testAdminScout Information</span></legend>
             <form method="post" action="scout.php">
             Username:<br>
             <input type="text" name="username"><br>
