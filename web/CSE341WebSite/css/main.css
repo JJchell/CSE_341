@@ -135,7 +135,8 @@ footer {
 }
 
 legend {
-	background-color: black;
+	background-color: #933233;
 	border-radius: 15px;
 	border-style: double;
+	padding: 3%;
 }
