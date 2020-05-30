@@ -142,10 +142,10 @@ legend {
 }
 
 #logoutBtn {
-	background-color: #933233;
-	border-radius: 15px;
-	border-style: double;
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
 	text-decoration: none;
-	color: white;
+	color: #933233;
 	padding: .5%;
 }
