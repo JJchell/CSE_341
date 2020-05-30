@@ -38,45 +38,43 @@ $db=get_db();
 </header> 
     <main>
 
-    <fieldset>
-        <legend><span>Add New Scout Information</span></legend>
-    
-        
-
-            <form method="post" action="scout.php">
-            Username:<br>
-            <input type="text" name="username"><br>
-            Password:<br>
-            <input type="password" name="password"><br>
-            <input type="submit" value="Login">
-            </form>
-
-                   
-
-
-    </fieldset>
         <fieldset>
-        <div class="info">
-            <form action="results.php" method="post">
-                First name: <br><input type="text" name="first_name"><br>
-                Last name: <br><input type="text" name="last_name"><br>
-                <label for="cookie">Choose a Cookie:</label><br>
-                <select id="cookie" name="cookie">
-                    <option value="none">-</option>
-                    <option value="Caramel deLites">Caramel deLites</option>
-                    <option value="Peanut Butter Sandwich">Peanut Butter Sandwich</option>
-                    <option value="Peanut Butter Patties">Peanut Butter Patties</option>
-                    <option value="Thin Mints">Thin Mints</option>
-                    <option value="Shortbread">Shortbread</option>
-                    <option value="Thanks-a-lot">Thanks-a-lot</option>
-                    <option value="Lemonades">Lemonades</option>
-                    <option value="Smores">Smores</option>
+            <legend><span>Add New Scout Information</span></legend>
+        
+                <form method="post" action="scout.php">
+                    Username:<br>
+                    <input type="text" name="username"><br>
+                    Password:<br>
+                    <input type="password" name="password"><br><br>
+                    <input type="submit" value="Login">
+                </form>
+
                     
-                </select><br>
-                <input type="submit" value="results" class="getBtn">
-                    <input type="hidden" name="action" value=""><br>
-            </form>
-        </div>
+
+
+        </fieldset>
+        <fieldset>
+            <legend><span>Scout & Cookie Information</span></legend>
+
+                <form action="results.php" method="post">
+                    First name: <br><input type="text" name="first_name"><br>
+                    Last name: <br><input type="text" name="last_name"><br>
+                    <label for="cookie">Choose a Cookie:</label><br>
+                    <select id="cookie" name="cookie">
+                        <option value="none">-</option>
+                        <option value="Caramel deLites">Caramel deLites</option>
+                        <option value="Peanut Butter Sandwich">Peanut Butter Sandwich</option>
+                        <option value="Peanut Butter Patties">Peanut Butter Patties</option>
+                        <option value="Thin Mints">Thin Mints</option>
+                        <option value="Shortbread">Shortbread</option>
+                        <option value="Thanks-a-lot">Thanks-a-lot</option>
+                        <option value="Lemonades">Lemonades</option>
+                        <option value="Smores">Smores</option>
+                        
+                    </select><br>
+                    <input type="submit" value="results" class="getBtn">
+                        <input type="hidden" name="action" value=""><br>
+                </form>
         </fieldset>
     </main>
         <footer>
