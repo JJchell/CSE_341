@@ -31,8 +31,8 @@
                 <fieldset>
                     <legend><span>Add New Scout</span></legend>
 
-                    <div><h2>Hello <?php echo $_SESSION['username'] ?></h2></div>
-                    <div><a href="logout.php" id="logoutBtn">Logout</a></div>
+                    <!-- <div><h2>Hello <?php echo $_SESSION['username']; ?></h2></div> -->
+                    <div><a href="logout.php" id="logoutBtn">Logout</a></div><br>
 
                     <div class="row">
 
