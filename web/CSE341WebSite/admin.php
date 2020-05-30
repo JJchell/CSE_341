@@ -36,18 +36,18 @@ try
 {
 
 $query = "INSERT INTO scout(first_name, last_name, date_of_birth, phone, email, user_name, password) 
-VALUES('$add_first_name', '$add_last_name', '$add_date_of_birth', '$add_phone', '$add_email', '$add_user_name', '$add_password')";
+VALUES(:first_name, :last_name, :date_of_birth, :phone, :email, :user_name, :password)";
 $statement = $db->prepare($query);
 ​
 // Now we bind the values to the placeholders. This does some nice things
 // including sanitizing the input with regard to sql commands.
-$statement->bindValue(':first_name', $add_first_name);
-$statement->bindValue(':last_name', $add_last_name);
-$statement->bindValue(':date_of_birth', $add_date_of_birth);
-$statement->bindValue(':phone', $add_phone);
-$statement->bindValue(':email', $add_email);
-$statement->bindValue(':user_name', $add_user_name);
-$statement->bindValue(':password', $add_password);
+$statement->bindValue(':first_name', $add_first_name, PDO::PARAM_STR);
+$statement->bindValue(':last_name', $add_last_name, PDO::PARAM_STR);
+$statement->bindValue(':date_of_birth', $add_date_of_birth, PDO::PARAM_STR);
+$statement->bindValue(':phone', $add_phone, PDO::PARAM_INT);
+$statement->bindValue(':email', $add_email, PDO::PARAM_STR);
+$statement->bindValue(':user_name', $add_user_name, PDO::PARAM_STR);
+$statement->bindValue(':password', $add_password, PDO::PARAM_STR);
 ​
 $statement->execute();
 ​
