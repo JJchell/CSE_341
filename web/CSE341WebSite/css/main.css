@@ -136,4 +136,6 @@ footer {
 
 legend {
 	background-color: black;
+	border-radius: 15px;
+	border-style: double;
 }
