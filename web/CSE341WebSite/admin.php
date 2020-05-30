@@ -8,7 +8,7 @@
 
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 
    <html lang="en-us">
    <head>
