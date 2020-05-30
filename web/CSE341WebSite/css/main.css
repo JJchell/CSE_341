@@ -133,3 +133,7 @@ footer {
 #cookieH {
 	padding: 10px;
 }
+
+legend {
+	background-color: black;
+}
