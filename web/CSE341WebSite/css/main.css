@@ -140,3 +140,12 @@ legend {
 	border-style: double;
 	padding: .5%;
 }
+
+#logoutBtn {
+	background-color: #933233;
+	border-radius: 15px;
+	border-style: double;
+	text-decoration: none;
+	color: white;
+	padding: .5%;
+}
