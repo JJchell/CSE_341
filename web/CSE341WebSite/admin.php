@@ -38,8 +38,7 @@ if (isset($_POST['submitted'])) {
         $statement->bindValue(':user_name', $add_user_name, PDO::PARAM_STR);
         $statement->bindValue(':password', $add_password, PDO::PARAM_STR);
         $statement->execute();
-        // get the new id
-        $scout_id = $db->lastInsertId("scout_id_seq");
+        
     } catch (Exception $ex) {
         echo "Error with DB. Details: $ex";
         die();
