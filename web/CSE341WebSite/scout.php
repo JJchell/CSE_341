@@ -46,7 +46,7 @@ $db=get_db();
                     <input type="text" name="username"><br>
                     Password:<br>
                     <input type="password" name="password"><br><br>
-                    <input type="submit" value="Login">
+                    <input type="submit" value="Login" class="getBtn">
                 </form>
 
                     
