@@ -1,9 +1,10 @@
 <?php
     session_start();
-    // if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == false) {
-    //     header ("Location: scout.php");
-    // }
+    if (!isset($_SESSION['loggedin'])) {
+        header ("Location: scout.php");
+    }
 
+    // || $_SESSION['loggedin'] == false
 
 ?>
 
