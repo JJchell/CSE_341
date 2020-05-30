@@ -22,7 +22,7 @@ $db=get_db();
 
 ?>
 
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE HTML>
 
    <html lang="en-us">
    <head>
