@@ -40,6 +40,10 @@ $db=get_db();
 
     <fieldset>
         <legend><span>Add New Scout Information</span></legend>
+    
+        <div><h2>Hello <?php echo $_SESSION['username']; ?></h2></div>
+        <div><a href="logout.php"</a></div>
+
             <form method="post" action="scout.php">
             Username:<br>
             <input type="text" name="username"><br>
