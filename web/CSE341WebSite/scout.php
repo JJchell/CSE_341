@@ -71,7 +71,7 @@ $db=get_db();
                         <option value="Lemonades">Lemonades</option>
                         <option value="Smores">Smores</option>
                         
-                    </select><br>
+                    </select><br><br>
                     <input type="submit" value="results" class="getBtn">
                         <input type="hidden" name="action" value=""><br>
                 </form>
