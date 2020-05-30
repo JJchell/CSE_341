@@ -58,9 +58,9 @@ $db=get_db();
         <fieldset>
         <div class="info">
             <form action="results.php" method="post">
-                First name: <input type="text" name="first_name"><br>
-                Last name: <input type="text" name="last_name"><br>
-                <label for="cookie">Choose a Cookie:</label>
+                First name: <br><input type="text" name="first_name"><br>
+                Last name: <br><input type="text" name="last_name"><br>
+                <label for="cookie">Choose a Cookie:</label><br>
                 <select id="cookie" name="cookie">
                     <option value="none">-</option>
                     <option value="Caramel deLites">Caramel deLites</option>

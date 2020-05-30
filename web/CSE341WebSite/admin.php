@@ -8,7 +8,6 @@
 
 ?>
 
-<h3>This is for testing</h3>
 
 <!DOCTYPE HTML>
 
