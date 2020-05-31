@@ -119,6 +119,7 @@ $db = get_db();
                     </div>
                     <input type="submit" value="Add Scout" class="getBtn" name="submitted">
                     <input type="hidden" name="action" value="register"><br>
+        </form>
             </fieldset>
 
             <fieldset>
@@ -135,7 +136,9 @@ $db = get_db();
                         <option value="password">Password</option>
                         
                     </select><br><br>
+                    <label><span>New value: </span><br>
                     <input type="text" name="change" id="change">
+                    <label><span>Scout ID: </span><br>
                     <input type="text" name="scout_id" id="scout_id">
                     <input type="submit" value="results" class="getBtn" name="update">
                         <input type="hidden" name="action" value=""><br>
