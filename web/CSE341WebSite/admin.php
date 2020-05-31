@@ -58,7 +58,7 @@ if (isset($_POST['update'])) {
         // including sanitizing the input with regard to sql commands.
         $statement->bindValue(':column', $column, PDO::PARAM_STR);
         $statement->bindValue(':change', $change, PDO::PARAM_STR);
-        $statement->bindValue(':scout_id', $scout_id, PDO::PARAM_STR);
+        $statement->bindValue(':id', $scout_id, PDO::PARAM_STR);
         
         $statement->execute();
     } catch (Exception $ex) {
@@ -137,7 +137,7 @@ $db = get_db();
                         
                     </select><br><br>
                     <label><span>New value: </span><br>
-                    <input type="text" name="change" id="change">
+                    <input type="text" name="change" id="change"><br><br>
                     <label><span>Scout ID: </span><br>
                     <input type="text" name="scout_id" id="scout_id">
                     <input type="submit" value="results" class="getBtn" name="update">
