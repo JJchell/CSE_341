@@ -123,7 +123,7 @@ $db = get_db();
             </fieldset>
 
             <fieldset>
-            <legend><span>Edit a Scout</span></legend>
+            <legend><span>Edit Scout</span></legend>
             <form action="" method="post">
                     <label for="edit">Choose what to edit:</label><br>
                     <select id="edit" name="edit">
