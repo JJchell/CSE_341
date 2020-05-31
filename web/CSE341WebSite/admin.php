@@ -56,7 +56,7 @@ if (isset($_POST['update'])) {
         $statement = $db->prepare($query);
         // Now we bind the values to the placeholders. This does some nice things
         // including sanitizing the input with regard to sql commands.
-        $statement->bindValue(':column', $column, PDO::PARAM_STR);
+        $statement->bindValue(':column', $column);
         $statement->bindValue(':change', $change, PDO::PARAM_STR);
         $statement->bindValue(':id', $scout_id, PDO::PARAM_INT);
         
