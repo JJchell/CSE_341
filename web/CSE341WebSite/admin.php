@@ -46,6 +46,28 @@ if (isset($_POST['submitted'])) {
 
 }
 
+if (isset($_POST['update'])) {
+    $column = $_POST['edit'];
+    $change = $_POST['change'];
+    $scout_id = $_POST['scout_id'];
+
+    try {
+        $query = "UPDATE scout SET :column = :change WHERE scout_id = :id"; 
+        $statement = $db->prepare($query);
+        // Now we bind the values to the placeholders. This does some nice things
+        // including sanitizing the input with regard to sql commands.
+        $statement->bindValue(':column', $column, PDO::PARAM_STR);
+        $statement->bindValue(':change', $change, PDO::PARAM_STR);
+        $statement->bindValue(':scout_id', $scout_id, PDO::PARAM_STR);
+        
+        $statement->execute();
+    } catch (Exception $ex) {
+        echo "Error with DB. Details: $ex";
+        die();
+    }
+
+}
+
 $db = get_db();
 
 
@@ -97,6 +119,28 @@ $db = get_db();
                     </div>
                     <input type="submit" value="Add Scout" class="getBtn" name="submitted">
                     <input type="hidden" name="action" value="register"><br>
+            </fieldset>
+
+            <fieldset>
+            <form action="" method="post">
+                    <label for="edit">Choose what to edit:</label><br>
+                    <select id="edit" name="edit">
+                        <option value="none">-</option>
+                        <option value="first_ame">First Name</option>
+                        <option value="last_name">Last Name</option>
+                        <option value="date_of_birth">Date of Birth</option>
+                        <option value="phone_number">Phone Number</option>
+                        <option value="email">Email</option>
+                        <option value="user_name">User Name</option>
+                        <option value="password">Password</option>
+                        
+                    </select><br><br>
+                    <input type="text" name="change" id="change">
+                    <input type="text" name="scout_id" id="scout_id">
+                    <input type="submit" value="results" class="getBtn" name="update">
+                        <input type="hidden" name="action" value=""><br>
+                </form>
+
             </fieldset>
         </form>
     </section>

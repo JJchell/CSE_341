@@ -75,7 +75,8 @@ if (isset($_POST['cookie'])) {
         </fieldset> <br>
         <fieldset>
         <?php foreach ($rows as $row){
-            echo "<p>" . "First name: " . $row['first_name'] . "</p>" .
+            echo "<p>" . "Scout ID: " . $row['scout_id'] . "</p>" .
+            "<p>" . "First name: " . $row['first_name'] . "</p>" .
             "<p>" . "Last name: " . $row['last_name'] . "</p>" .
             "<p>" . "Date of birth: " . $row['date_of_birth'] . "</p>".
             "<p>" . "Email: " . $row['email'] . "</p>".
