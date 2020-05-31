@@ -123,6 +123,7 @@ $db = get_db();
             </fieldset>
 
             <fieldset>
+            <legend><span>Edit a Scout</span></legend>
             <form action="" method="post">
                     <label for="edit">Choose what to edit:</label><br>
                     <select id="edit" name="edit">
@@ -147,12 +148,13 @@ $db = get_db();
             </fieldset>
 
             <fieldset>
+            <legend><span>Delete Scout</span></legend>
             <form action="" method="post">
             <label><span>Scout Id: </span><br>
                             <input name="scout_id" type="text" value="" id="scout_id" required>
                         </label><br><br>
                         
-                    <input type="submit" value="results" class="getBtn" name="delete">
+                    <input type="submit" value="Delete" class="getBtn" name="delete">
                         <input type="hidden" name="action" value=""><br>
                 </form>
 
