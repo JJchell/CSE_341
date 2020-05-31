@@ -145,6 +145,20 @@ $db = get_db();
                 </form>
 
             </fieldset>
+
+            <fieldset>
+            <form action="" method="post">
+            <label><span>Scout Id: </span><br>
+                            <input name="scout_id" type="text" value="" id="scout_id" required>
+                        </label><br><br>
+                        
+                    </select><br><br>
+                    <input type="text" name="scout_id" id="scout_id">
+                    <input type="submit" value="results" class="getBtn" name="update">
+                        <input type="hidden" name="action" value=""><br>
+                </form>
+
+            </fieldset>
         </form>
     </section>
     <footer>
