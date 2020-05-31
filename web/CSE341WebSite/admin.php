@@ -152,9 +152,7 @@ $db = get_db();
                             <input name="scout_id" type="text" value="" id="scout_id" required>
                         </label><br><br>
                         
-                    </select><br><br>
-                    <input type="text" name="scout_id" id="scout_id">
-                    <input type="submit" value="results" class="getBtn" name="update">
+                    <input type="submit" value="results" class="getBtn" name="delete">
                         <input type="hidden" name="action" value=""><br>
                 </form>
 
