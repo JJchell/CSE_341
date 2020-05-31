@@ -140,7 +140,7 @@ $db = get_db();
                     <label><span>New value: </span><br>
                     <input type="text" name="change" id="change"><br><br>
                     <label><span>Scout ID: </span><br>
-                    <input type="text" name="scout_id" id="scout_id">
+                    <input type="text" name="scout_id" id="scout_id"><br>
                     <input type="submit" value="results" class="getBtn" name="update">
                         <input type="hidden" name="action" value=""><br>
                 </form>
@@ -152,7 +152,7 @@ $db = get_db();
             <form action="" method="post">
             <label><span>Scout Id: </span><br>
                             <input name="scout_id" type="text" value="" id="scout_id" required>
-                        </label><br><br>
+                        </label><br>
                         
                     <input type="submit" value="Delete" class="getBtn" name="delete">
                         <input type="hidden" name="action" value=""><br>
