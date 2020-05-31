@@ -127,7 +127,7 @@ $db = get_db();
                     <label for="edit">Choose what to edit:</label><br>
                     <select id="edit" name="edit">
                         <option value="none">-</option>
-                        <option value="first_ame">First Name</option>
+                        <option value="first_name">First Name</option>
                         <option value="last_name">Last Name</option>
                         <option value="date_of_birth">Date of Birth</option>
                         <option value="phone_number">Phone Number</option>
