@@ -52,11 +52,11 @@ if (isset($_POST['update'])) {
     $scout_id = $_POST['scout_id'];
 
     try {
-        $query = "UPDATE scout SET :column = :change WHERE scout_id = :id"; 
+        $query = "UPDATE scout SET $column = :change WHERE scout_id = :id"; 
         $statement = $db->prepare($query);
         // Now we bind the values to the placeholders. This does some nice things
         // including sanitizing the input with regard to sql commands.
-        $statement->bindValue(':column', $column);
+        // $statement->bindValue(':column', $column);
         $statement->bindValue(':change', $change, PDO::PARAM_STR);
         $statement->bindValue(':id', $scout_id, PDO::PARAM_INT);
         
