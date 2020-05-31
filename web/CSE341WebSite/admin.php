@@ -68,6 +68,24 @@ if (isset($_POST['update'])) {
 
 }
 
+if (isset($_POST['delete'])) {
+    $column = $_POST['edit'];
+    $change = $_POST['change'];
+    $scout_id = $_POST['scout_id'];
+
+    try {
+        $query = "DELETE FROM scout WHERE scout_id = :id"; 
+        $statement = $db->prepare($query);
+        $statement->bindValue(':id', $scout_id, PDO::PARAM_INT);
+        
+        $statement->execute();
+    } catch (Exception $ex) {
+        echo "Error with DB. Details: $ex";
+        die();
+    }
+
+}
+
 $db = get_db();
 
 
