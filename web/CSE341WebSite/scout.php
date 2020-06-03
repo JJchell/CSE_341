@@ -68,7 +68,8 @@ $db=get_db();
         <fieldset>
             <legend><span>Scout Admin page</span></legend>
 
-            <br><div>Login with your Username and Password to<br>add, edit or delete Scout information</div><br>
+            <br><div>Login with your Username and Password to<br>add, edit or delete Scout information. If <br>you wish to edit or delete a scout, 
+            <br>Make sure you get the scout ID# from the <br>above field. </div><br>
         
                 <form method="post" action="scout.php">
                     Username:<br>

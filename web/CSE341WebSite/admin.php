@@ -107,7 +107,7 @@ $db = get_db();
             </div><br>
 
             <fieldset>
-            <br><div><span>To return to the Scout page click here: </span><a href="logout.php" id="logoutBtn">Logout</a></div><br>
+            <br><div><span>To return to the Scout page click here:  </span><a href="logout.php" id="logoutBtn">Logout</a></div><br>
             </fieldset>
     </header>
     <section id="gallery">
@@ -149,8 +149,13 @@ $db = get_db();
 
             <fieldset>
             <legend><span>Edit Scout</span></legend>
+
+            <br><div>To edit Scout, fill out the form with the<br> ID of the scout you wish to edit </div><br>
+            <br><div>Login with your Username and Password to<br>add, edit or delete Scout information. If 
+            <br>you wish to edit or delete a scout, <br>Make sure you get the scout ID# from the <br>above field. </div><br>
+
             <form action="" method="post">
-                    <label for="edit">Choose what to edit:</label><br>
+                    <br><label for="edit">Choose what to edit:</label><br>
                     <select id="edit" name="edit">
                         <option value="none">-</option>
                         <option value="first_name">First Name</option>
@@ -162,11 +167,11 @@ $db = get_db();
                         <option value="password">Password</option>
                         
                     </select><br><br>
-                    <label><span>New value: </span><br>
+                    <br><label><span>New value: </span><br>
                     <input type="text" name="change" id="change"><br><br>
                     <label><span>Scout ID: </span><br>
                     <input type="text" name="scout_id" id="scout_id"><br><br>
-                    <input type="submit" value="results" class="getBtn" name="update">
+                    <input type="submit" value="Edit" class="getBtn" name="update">
                         <input type="hidden" name="action" value=""><br>
                 </form>
 
@@ -175,6 +180,11 @@ $db = get_db();
             <fieldset>
             <legend><span>Delete Scout</span></legend>
             <form action="" method="post">
+
+            <br><div>To Permanently delete a Scout, fill out the<br> 
+                     Field with the ID of the scout you wish to <br>
+                     delete. * WARNING * this can not be undone. </div><br>
+
             <label><span>Scout Id: </span><br>
                             <input name="scout_id" type="text" value="" id="scout_id" required>
                         </label><br><br>
