@@ -151,8 +151,6 @@ $db = get_db();
             <legend><span>Edit Scout</span></legend>
 
             <br><div>To edit Scout, fill out the form with the<br> ID of the scout you wish to edit </div><br>
-            <br><div>Login with your Username and Password to<br>add, edit or delete Scout information. If 
-            <br>you wish to edit or delete a scout, <br>Make sure you get the scout ID# from the <br>above field. </div><br>
 
             <form action="" method="post">
                     <br><label for="edit">Choose what to edit:</label><br>
@@ -182,7 +180,7 @@ $db = get_db();
             <form action="" method="post">
 
             <br><div>To Permanently delete a Scout, fill out the<br> 
-                     Field with the ID of the scout you wish to <br>
+                     Field with the ID# of the scout you wish to <br>
                      delete. * WARNING * this can not be undone. </div><br>
 
             <label><span>Scout Id: </span><br>
