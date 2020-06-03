@@ -72,7 +72,7 @@ if (isset($_POST['cookie'])) {
             <p>Scout name: <?= $name ?></p>
             <p>Last name: <?= $last_name ?></p>
             <p>Cookie: <?= $cookie ?></p>
-            <span>to return the previous page, click the Sout link.</span>
+            <span>To return the previous page, click the Sout link.</span>
         </fieldset> <br>
         <fieldset>
         <legend><span>Your Scout search results</span></legend>
