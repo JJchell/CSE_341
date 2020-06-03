@@ -104,7 +104,7 @@ $db = get_db();
             <div class="top-container">
                <img id="logo" src="images/logo.jpg" alt="my logo" width="150" height="150">
                
-            </div>
+            </div><br><br>
 
             <fieldset>
             <br><div><span>To return to the Scout page click here: </span><a href="logout.php" id="logoutBtn">Logout</a></div><br>
