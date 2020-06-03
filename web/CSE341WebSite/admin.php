@@ -101,7 +101,14 @@ $db = get_db();
 </head>
 <body>
     <header>
-        <?php include 'common/header.php'; ?>
+            <div class="top-container">
+               <img id="logo" src="images/logo.jpg" alt="my logo" width="150" height="150">
+               
+            </div>
+
+            <fieldset>
+            <div><span>To return to the Scout page click here: </span><a href="logout.php" id="logoutBtn">Logout</a></div><br>
+            </fieldset>
     </header>
     <section id="gallery">
         <form method="post" action="">
