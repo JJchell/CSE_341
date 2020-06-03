@@ -107,7 +107,7 @@ $db = get_db();
             </div><br>
 
             <fieldset>
-            <div><span><h2>To return to the Scout page click here: </h2></span><a href="logout.php" id="logoutBtn">Logout</a></div><br>
+            <br><div><span>To return to the Scout page click here: </span><a href="logout.php" id="logoutBtn">Logout</a></div><br>
             </fieldset>
     </header>
     <section id="gallery">
