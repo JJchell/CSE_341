@@ -68,7 +68,7 @@ if (isset($_POST['cookie'])) {
     <main>
 
         <fieldset>
-            <p>Your results for: </p>
+            <p>You looked for: </p>
             <p>Scout name: <?= $name ?></p>
             <p>Last name: <?= $last_name ?></p>
             <p>Cookie: <?= $cookie ?></p>
@@ -84,10 +84,11 @@ if (isset($_POST['cookie'])) {
         }?>
         </fieldset> <br>
         <fieldset>
-        <?php foreach ($rowsCookie as $row){
-            echo "<p>" . "Cookie name: " . $row['cookie_name'] . "</p>" .
-            "Cookies on hand: " . $row['cookies_on_hand'];
-        }?>
+            <legend><span>Your serch results</span></legend>
+                <?php foreach ($rowsCookie as $row){
+                    echo "<p>" . "Cookie name: " . $row['cookie_name'] . "</p>" .
+                    "Cookies on hand: " . $row['cookies_on_hand'];
+                }?>
         </fieldset>
 
 
