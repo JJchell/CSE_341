@@ -72,8 +72,10 @@ if (isset($_POST['cookie'])) {
             <p>Scout name: <?= $name ?></p>
             <p>Last name: <?= $last_name ?></p>
             <p>Cookie: <?= $cookie ?></p>
+            <span>to return the previous page, click the Sout link.</span>
         </fieldset> <br>
         <fieldset>
+        <legend><span>Your Scout search results</span></legend>
         <?php foreach ($rows as $row){
             echo "<p>" . "Scout ID: " . $row['scout_id'] . "</p>" .
             "<p>" . "First name: " . $row['first_name'] . "</p>" .
@@ -84,7 +86,7 @@ if (isset($_POST['cookie'])) {
         }?>
         </fieldset> <br>
         <fieldset>
-            <legend><span>Your serch results</span></legend>
+            <legend><span>Your Cookie search results</span></legend>
                 <?php foreach ($rowsCookie as $row){
                     echo "<p>" . "Cookie name: " . $row['cookie_name'] . "</p>" .
                     "Cookies on hand: " . $row['cookies_on_hand'];
