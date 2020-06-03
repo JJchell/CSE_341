@@ -42,7 +42,7 @@ $db=get_db();
         <fieldset>
             <legend><span>Scout & Cookie Information</span></legend>
 
-                <br><div>To access scout or cookie information, enter the first name of the scout, or select a type of cookie.</div><br>
+                <br><div>To access scout or cookie information, enter the first name of <br>the scout, and/or select a type of cookie.</div><br>
 
                 <form action="results.php" method="post">
                     First name: <br><input type="text" name="first_name"><br>
@@ -68,7 +68,7 @@ $db=get_db();
         <fieldset>
             <legend><span>Add New Scout</span></legend>
 
-            <br><div>Login with your Username and Password to add, edit or delete Scout information</div><br>
+            <br><div>Login with your Username and Password to<br>add, edit or delete Scout information</div><br>
         
                 <form method="post" action="scout.php">
                     Username:<br>
