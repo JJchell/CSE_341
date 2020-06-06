@@ -150,7 +150,8 @@ $db = get_db();
             <fieldset>
             <legend><span>Edit Scout</span></legend>
 
-            <br><div>To edit Scout, fill out the form with the<br> ID of the scout you wish to edit </div><br>
+            <br><div>To edit Scout, fill out the form with the<br>
+                     ID# of the scout you wish to edit </div><br>
 
             <form action="" method="post">
                     <br><label for="edit">Choose what to edit:</label><br>

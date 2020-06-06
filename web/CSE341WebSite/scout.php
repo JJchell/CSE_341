@@ -42,8 +42,8 @@ $db=get_db();
         <fieldset>
             <legend><span>Scout & Cookie Information</span></legend>
 
-                <br><div>To access Scout or Cookie information, enter <br>
-                         the first name of the scout, and/or select a <br>
+                <br><div>To access Scout information, or Cookie invetory.<br>
+                         Enter the first name of the scout, and/or select a <br>
                          type of cookie.</div><br>
 
                 <form action="results.php" method="post">
