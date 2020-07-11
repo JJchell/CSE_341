@@ -32,7 +32,7 @@ $db=get_db();
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/main.css">
    </head>
-   <body>
+   <bo>
 <header>
    <?php include 'common/header.php'; ?>
 </header> 
@@ -92,5 +92,5 @@ $db=get_db();
             <?php include 'common/footer.php'; ?>
 
         </footer>
-   </body>
+   </bo dy>
 </html>
