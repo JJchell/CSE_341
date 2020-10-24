@@ -1,5 +1,5 @@
 <div class="top-container">
-               <img id="logo" src="images/logo.jpg" alt="my logo" width="150" height="150">
+               <img id="logo" src="images/GS_Logo.png" alt="my logo" width="150" height="150">
                
             </div>
             
