@@ -165,7 +165,8 @@ legend {
   /* Style the images inside the grid */
   .column img {
 	opacity: 0.8; 
-	cursor: pointer; 
+	cursor: pointer;
+	height: 50px; 
   }
   
   .column img:hover {
@@ -202,8 +203,4 @@ legend {
 	color: white;
 	font-size: 35px;
 	cursor: pointer;
-  }
-
-  img {
-	  height: 15px;
   }
