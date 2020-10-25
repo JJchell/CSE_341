@@ -25,9 +25,9 @@
                   <div class="column">
                      <img src="images/GSleaders.jpeg" alt="Leaders" onclick="myFunction(this);">
                   </div>
-                  <!-- <div class="column">
+                  <div class="column">
                      <img src="images/campfire.jpeg" alt="Mountains" onclick="myFunction(this);">
-                  </div> -->
+                  </div>
                   <div class="column">
                      <img src="images/cookie_pickup.jpeg" alt="Cookies!" onclick="myFunction(this);">
                   </div>
