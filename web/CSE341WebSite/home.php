@@ -49,10 +49,10 @@
                      <span class="dot" onclick="currentSlide(3)"></span> 
                   </div>
 
-                  
-               <!-- <div class="info"> -->
+               </div>   
+               <div class="info">
                
-                  Welcome to Girl Scout troup 3377 Lorem ipsum dolor sit amet, 
+                  Welcome to Girl Scout troup 3377<br> Lorem ipsum dolor sit amet, 
                   his fabulas eloquentiam cu, sint ludus tacimates te pri. Tale 
                   interesset an mel. Sententiae accommodare in nam, ad usu nominavi 
                   similique. Zril albucius vulputate ius an, delicata disputando ad 
