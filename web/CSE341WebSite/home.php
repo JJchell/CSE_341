@@ -17,35 +17,39 @@
          <fieldset>
             <div class="homePage">
                <div class="info">
-                  <!-- The grid: four columns -->
-               <div class="row">
-                  <div class="column">
-                     <img src="images/archer.jpg" alt="Archer" onclick="myFunction(this);">
-                  </div>
-                  <div class="column">
-                     <img src="images/GSleaders.jpeg" alt="Leaders" onclick="myFunction(this);">
-                  </div>
-                  <!-- <div class="column">
-                     <img src="images/campfire.jpeg" alt="Mountains" onclick="myFunction(this);">
-                  </div> -->
-                  <div class="column">
-                     <img src="images/cookie_pickup.jpeg" alt="Cookies!" onclick="myFunction(this);">
-                  </div>
-               </div>
+               <div class="slideshow-container">
 
-               <!-- The expanding image container -->
-               <div class="container">
-               <!-- Close the image -->
-               <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                  <div class="mySlides fade">
+                     <div class="numbertext">1 / 3</div>
+                        <img src="images/archer.jpg" style="width:100%">
+                     <div class="text">Archer</div>
+                  </div>
 
-               <!-- Expanded image -->
-               <img id="expandedImg" style="width:100%">
+                  <div class="mySlides fade">
+                     <div class="numbertext">2 / 3</div>
+                        <img src="images/campfire.jpeg" style="width:100%">
+                     <div class="text">Campfire</div>
+                  </div>
 
-               <!-- Image text -->
-               <div id="imgtext"></div>
-               </div>
-               </div>
-               <!-- End the grid: four columns -->
+                  <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="images/cookie_pickup.jpeg" style="width:100%">
+                  <div class="text">Cookies!!</div>
+                  </div>
+
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                  </div>
+                  <br>
+
+                  <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  </div>
+
+                  
                <div class="info">
                
                   Welcome to Girl Scout troup 3377 Lorem ipsum dolor sit amet, 
@@ -64,14 +68,34 @@
             </div>
          </fieldset>
          <script>
-function myFunction(imgs) {
-  var expandImg = document.getElementById("expandedImg");
-  var imgText = document.getElementById("imgtext");
-  expandImg.src = imgs.src;
-  imgText.innerHTML = imgs.alt;
-  expandImg.parentElement.style.display = "block";
-}
-</script>
+                  var slideIndex = 1;
+                  showSlides(slideIndex);
+
+                  function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                  }
+
+                  function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                  }
+
+                  function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  }
+                  </script>
+         
       </main>
       <footer>
          <?php include 'common/footer.php'; ?>
