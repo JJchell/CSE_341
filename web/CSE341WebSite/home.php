@@ -20,16 +20,16 @@
                   <!-- The grid: four columns -->
                <div class="row">
                   <div class="column">
-                     <img src="images/archer.jpg" alt="Nature" onclick="myFunction(this);">
+                     <img src="images/archer.jpg" alt="Archer" onclick="myFunction(this);">
                   </div>
                   <div class="column">
-                     <img src="images/GSleaders.jpeg" alt="Snow" onclick="myFunction(this);">
+                     <img src="images/GSleaders.jpeg" alt="Leaders" onclick="myFunction(this);">
                   </div>
                   <!-- <div class="column">
                      <img src="images/campfire.jpeg" alt="Mountains" onclick="myFunction(this);">
                   </div> -->
                   <div class="column">
-                     <img src="images/cookie_pickup.jpeg" alt="Lights" onclick="myFunction(this);">
+                     <img src="images/cookie_pickup.jpeg" alt="Cookies!" onclick="myFunction(this);">
                   </div>
                </div>
 
