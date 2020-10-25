@@ -158,7 +158,6 @@ legend {
 /* The grid: Four equal columns that floats next to each other */
 .column {
 	float: left;
-	height: 50px;
 	width: 30%;
 	padding: 10px;
   }
@@ -203,4 +202,8 @@ legend {
 	color: white;
 	font-size: 35px;
 	cursor: pointer;
+  }
+
+  img {
+	  height: 15px;
   }
