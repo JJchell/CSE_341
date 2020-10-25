@@ -17,28 +17,28 @@
          <fieldset>
             <div class="homePage">
                <div class="info">
-               <div class="slideshow-container">
+                  <div class="slideshow-container">
 
-                  <div class="mySlides fade">
-                     <div class="numbertext">1 / 3</div>
-                        <img src="images/archer.jpg" style="width:100%">
-                     <div class="text">Archer</div>
-                  </div>
+                     <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                           <img src="images/archer.jpg" style="width:100%">
+                        <div class="text">Archer</div>
+                     </div>
 
-                  <div class="mySlides fade">
-                     <div class="numbertext">2 / 3</div>
-                        <img src="images/campfire.jpeg" style="width:100%">
-                     <div class="text">Campfire</div>
-                  </div>
+                     <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                           <img src="images/campfire.jpeg" style="width:100%">
+                        <div class="text">Campfire</div>
+                     </div>
 
-                  <div class="mySlides fade">
-                     <div class="numbertext">3 / 3</div>
-                        <img src="images/cookie_pickup.jpeg" style="width:100%">
-                     <div class="text">Cookies!!</div>
-                  </div>
+                     <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                           <img src="images/cookie_pickup.jpeg" style="width:100%">
+                        <div class="text">Cookies!!</div>
+                     </div>
 
-                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
                   </div>
                   <br>
@@ -50,7 +50,7 @@
                   </div>
 
                   
-               <div class="info">
+               <!-- <div class="info"> -->
                
                   Welcome to Girl Scout troup 3377 Lorem ipsum dolor sit amet, 
                   his fabulas eloquentiam cu, sint ludus tacimates te pri. Tale 
