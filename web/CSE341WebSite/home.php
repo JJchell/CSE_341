@@ -20,16 +20,16 @@
                   <!-- The grid: four columns -->
                <div class="row">
                   <div class="column">
-                     <img src="archer.jpg" alt="Nature" onclick="myFunction(this);">
+                     <img src="images/archer.jpg" alt="Nature" onclick="myFunction(this);">
                   </div>
                   <div class="column">
-                     <img src="GSleaders.jpeg" alt="Snow" onclick="myFunction(this);">
+                     <img src="images/GSleaders.jpeg" alt="Snow" onclick="myFunction(this);">
                   </div>
                   <div class="column">
-                     <img src="campfire.jpeg" alt="Mountains" onclick="myFunction(this);">
+                     <img src="images/campfire.jpeg" alt="Mountains" onclick="myFunction(this);">
                   </div>
                   <div class="column">
-                     <img src="cookie_pickup.jpeg" alt="Lights" onclick="myFunction(this);">
+                     <img src="images/cookie_pickup.jpeg" alt="Lights" onclick="myFunction(this);">
                   </div>
                </div>
 
@@ -48,7 +48,7 @@
                <!-- End the grid: four columns -->
                <div class="info">
                
-                  Welcome to Girl Scout troup XXXX 
+                  Welcome to Girl Scout troup 3377 
                      
                </div>
             </div>
