@@ -48,7 +48,17 @@
                <!-- End the grid: four columns -->
                <div class="info">
                
-                  Welcome to Girl Scout troup 3377 
+                  Welcome to Girl Scout troup 3377 Lorem ipsum dolor sit amet, 
+                  his fabulas eloquentiam cu, sint ludus tacimates te pri. Tale 
+                  interesset an mel. Sententiae accommodare in nam, ad usu nominavi 
+                  similique. Zril albucius vulputate ius an, delicata disputando ad 
+                  sed. An tale electram vis, et duo veri nostrum corrumpit.
+
+                  Mel ex quis nostro qualisque. Ne eam magna rationibus, vix ea 
+                  consulatu interesset, ad duis debet constituam usu. Mea id etiam 
+                  noster possim, te mel purto feugiat urbanitas. Pro nobis aliquid 
+                  denique eu, inimicus persequeris usu cu. Ei sit sale erant, audiam 
+                  audire percipitur ei eos.
                      
                </div>
             </div>
