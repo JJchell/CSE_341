@@ -20,21 +20,33 @@
                   <div class="slideshow-container">
 
                      <div class="mySlides fade">
-                        <div class="numbertext">1 / 3</div>
+                        <div class="numbertext">1 / 5</div>
                            <img src="images/archer.jpg" style="width:100%">
                         <div class="text">Archer</div>
                      </div>
 
                      <div class="mySlides fade">
-                        <div class="numbertext">2 / 3</div>
+                        <div class="numbertext">2 / 5</div>
                            <img src="images/campfire.jpeg" style="width:100%">
                         <div class="text">Campfire</div>
                      </div>
 
                      <div class="mySlides fade">
-                        <div class="numbertext">3 / 3</div>
+                        <div class="numbertext">3 / 5</div>
                            <img src="images/cookie_pickup.jpeg" style="width:100%">
                         <div class="text">Cookies!!</div>
+                     </div>
+
+                     <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                           <img src="images/bridging.jpeg" style="width:100%">
+                        <div class="text">Bridging</div>
+                     </div>
+
+                     <div class="mySlides fade">
+                        <div class="numbertext">5 / 5</div>
+                           <img src="images/ceremony.jpeg" style="width:100%">
+                        <div class="text">Ceremony</div>
                      </div>
 
                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
