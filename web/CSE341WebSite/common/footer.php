@@ -1,8 +1,8 @@
 <div class="links">
             <ul>
-            Iterests:&nbsp &nbsp<li><a href="https://www.bmwmotorcycles.com">BMW Motorcycle</a></li>
-               <li><a href="https://www.ridetexas.com">Ride Texas</a></li>
-               <li><a href="https://www.byui.edu">BYU Idaho</a></li>
+            Iterests:&nbsp &nbsp<li><a href="https://www.girlscouts.org/">Girl Scouts of America</a></li>
+               <li><a href="https://www.girlscoutshop.com/">Girl Scouts Shop</a></li>
+               <li><a href="https://www.gs-top.org/">GS Texas Oklahoma Planes</a></li>
                <li><a href="https://www.churchofjesuschrist.org">Church of Jesus Christ of Laterday Saints</a></li>
            </ul>
          </div>
