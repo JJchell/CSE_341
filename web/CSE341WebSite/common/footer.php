@@ -6,7 +6,7 @@
                <li><a href="https://makingfriends.com/">Making Friends</a></li>
            </ul>
          </div>
-         <br><br><br>
+         <br><br>
 
 <p>&copy;  All rights reserved.</p>
             
