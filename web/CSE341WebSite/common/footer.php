@@ -8,5 +8,5 @@
          </div>
 
 <p>&copy;  All rights reserved.</p>
-            <?php echo "The universal time is " . date("h:i:sa");?>
-            <p>Last updated 25 October, 2020</p>
+            
+            <p>Last updated 4 November, 2020</p>
