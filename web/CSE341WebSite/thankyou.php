@@ -8,7 +8,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Thank you page | James Chell | CSE 341 BYUI</title>
+      <title>Thank you page | Girl Scouts | Troup 3377</title>
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/main.css">
    </head>
