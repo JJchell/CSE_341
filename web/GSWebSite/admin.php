@@ -132,7 +132,7 @@ $db = get_db();
         </fieldset>
             <fieldset>
                 <legend><span>Add New Scout</span></legend>
-                 <?php echo $_SESSION['username']; ?></h2></div>
+                 <?php echo $_SESSION['username']; ?>
                 <div class="row">
                     <div class="column">
                         <label><span>First Name: </span><br>
