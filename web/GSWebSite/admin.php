@@ -128,7 +128,17 @@ $db = get_db();
         <form method="post" action="">
         <fieldset>
             <legend><span>All Scouts</span></legend>
-            
+            <?php
+                $sql = "SELECT * FROM scout;";
+                $result = mysql_query($db, $sql);
+                $resultCheck = mysql_num_rows($result);
+
+                if ($resultCheck > 0) {
+                    while ($row = mysql_fetch_assoc($result)) {
+                        echo $row['scout_id, first_name, last_name, user_name, password, email, phone'] . "<br>";
+                    }
+                }
+            ?>
         </fieldset>
             <fieldset>
                 <legend><span>Add New Scout</span></legend>
