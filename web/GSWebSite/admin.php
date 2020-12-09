@@ -15,6 +15,12 @@ session_start();
 //     $data = htmlspecialchars($data);
 //     return $data;
 // }
+?>
+
+<?php
+    $sql = "SELECT * FROM scout;";
+    $result = mysqli_query($db);
+?>
 if (isset($_POST['submitted'])) {
     $add_first_name = $_POST['add_first_name'];
     $add_last_name = $_POST['add_last_name'];
@@ -109,6 +115,9 @@ $db = get_db();
             <br><div><span>To return to the Scout page click here:  </span><a href="logout.php" id="logoutBtn">Logout</a></div><br>
             </fieldset>
     </header>
+    <fieldset>
+    
+    </fieldset>
     <section id="gallery">
         <form method="post" action="">
             <fieldset>
