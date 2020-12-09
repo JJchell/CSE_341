@@ -115,11 +115,12 @@ $db = get_db();
             <br><div><span>To return to the Scout page click here:  </span><a href="logout.php" id="logoutBtn">Logout</a></div><br>
             </fieldset>
     </header>
-    <fieldset>
-        <legend><span>All Scouts</span></legend>
-    </fieldset>
+    
     <section id="gallery">
         <form method="post" action="">
+        <fieldset>
+            <legend><span>All Scouts</span></legend>
+        </fieldset>
             <fieldset>
                 <legend><span>Add New Scout</span></legend>
                 <!-- <div><h2>Hello <?php echo $_SESSION['username']; ?></h2></div> -->
