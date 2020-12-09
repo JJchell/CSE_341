@@ -18,6 +18,17 @@ session_start();
 ?>
 
 <?php
+    $sql = "SELECT * FROM scout;";
+    $result = mysqli_query($db, $sql);
+    $resultCheck =mysqli_num_rows($result);
+    if ($resultCheck > 0) {
+        while ($row = mysqli_fetch_assoc($result)) {
+            echo $row['scout_id, first_name, last_name, user_name, password, email, phone'] . "<br>";
+        }
+    }
+?>
+
+<?php
 if (isset($_POST['submitted'])) {
     $add_first_name = $_POST['add_first_name'];
     $add_last_name = $_POST['add_last_name'];
