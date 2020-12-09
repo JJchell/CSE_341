@@ -14,6 +14,13 @@
 
       </header> 
       <main>
+
+      <fieldset>
+         <legend><span>All Scouts</span></legend>
+            <div>
+               This is a pice of test text
+            </div>
+      </fieldset>
          <fieldset>
             <div class="homePage">
                <div class="info">
