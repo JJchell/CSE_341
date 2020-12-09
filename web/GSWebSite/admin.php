@@ -17,7 +17,7 @@ session_start();
 // }
 ?>
 
-
+<?php
 if (isset($_POST['submitted'])) {
     $add_first_name = $_POST['add_first_name'];
     $add_last_name = $_POST['add_last_name'];
