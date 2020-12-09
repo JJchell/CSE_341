@@ -60,7 +60,7 @@ $comments = htmlspecialchars($_POST["comments"]);
         </fieldset>
 
         <fieldset>
-            <form method="post" action="thankyou.php">
+            <form method="post" action="form-to-email.php">
 
                 <h2>If everything is correct then</h2>
                 <input type="submit" value="Get your Cookies" class="getBtn">
