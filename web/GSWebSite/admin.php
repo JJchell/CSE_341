@@ -130,11 +130,11 @@ $db = get_db();
             <legend><span>All Scouts</span></legend>
             <?php
                 $sql = "SELECT * FROM scout;";
-                $result = pgsql_query($db, $sql);
-                $resultCheck = pgsql_num_rows($result);
+                $result = mysqli_query($db, $sql);
+                $resultCheck = mysqli_num_rows($result);
 
                 if ($resultCheck > 0) {
-                    while ($row = pgsql_fetch_assoc($result)) {
+                    while ($row = mysqli_fetch_assoc($result)) {
                         echo $row['scout_id, first_name, last_name, user_name, password, email, phone'] . "<br>";
                     }
                 }
