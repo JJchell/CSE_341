@@ -9,10 +9,10 @@
       <link rel="stylesheet" href="css/main.css">
    </head>
    <body>
-<header>
+   <header>
    <?php include 'common/header.php'; ?>
 
-      </header> 
+   </header> 
       <main>
          <fieldset>
             <div class="homePage">
@@ -113,6 +113,6 @@
       </main>
       <footer>
          <?php include 'common/footer.php'; ?>
-         </footer>
+      </footer>
    </body>
 </html>
