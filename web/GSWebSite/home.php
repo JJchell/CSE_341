@@ -14,13 +14,6 @@
 
       </header> 
       <main>
-
-      <fieldset>
-         <legend><span>All Scouts</span></legend>
-            <div>
-               This is a pice of test text
-            </div>
-      </fieldset>
          <fieldset>
             <div class="homePage">
                <div class="info">
@@ -84,8 +77,6 @@
                   noster possim, te mel purto feugiat urbanitas. Pro nobis aliquid 
                   denique eu, inimicus persequeris usu cu. Ei sit sale erant, audiam 
                   audire percipitur ei eos.
-
-                  This is just a pice of test text
                      
                </div>
             </div>
