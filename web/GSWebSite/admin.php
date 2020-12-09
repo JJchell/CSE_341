@@ -116,7 +116,7 @@ $db = get_db();
             </fieldset>
     </header>
     <fieldset>
-    
+        <legend><span>All Scouts</span></legend>
     </fieldset>
     <section id="gallery">
         <form method="post" action="">
