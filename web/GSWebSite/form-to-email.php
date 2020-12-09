@@ -9,17 +9,17 @@ $visitor_email = $_POST['email'];
 $message = $_POST['message'];
 
 //Validate first
-if(empty($name)||empty($visitor_email)) 
-{
-    echo "Name and email are mandatory!";
-    exit;
-}
+// if(empty($name)||empty($visitor_email)) 
+// {
+//     echo "Name and email are mandatory!";
+//     exit;
+// }
 
-if(IsInjected($visitor_email))
-{
-    echo "Bad email value!";
-    exit;
-}
+// if(IsInjected($visitor_email))
+// {
+//     echo "Bad email value!";
+//     exit;
+// }
 
 $email_from = 'youknowyouwantthem@gmail.com';
 $email_subject = "New Cookie Order";
